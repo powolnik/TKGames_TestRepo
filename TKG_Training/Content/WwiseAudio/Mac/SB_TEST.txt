@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2327566415	SFX_TEST_ENV_Loop_Start			\Default Work Unit\TEST\SFX_TEST_ENV_Loop_Start	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	224535993	Atmospheric Flute_Soundscape-12	E:\Silnik\PROJECT\TK_Repo_Folder\TKGames_TestRepo\TKG_Training\TKG_Training_WwiseProject\.cache\Mac\SFX\TEST\Atmospheric Flute_Soundscape-12_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\TEST\Atmospheric Flute_Soundscape-12		13728060
+

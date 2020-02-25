@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{FBE1AEBE-2A4C-49E8-8755-B6EEC3811483}" SchemaVersion="97">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{FBE1AEBE-2A4C-49E8-8755-B6EEC3811483}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{FBE1AEBE-2A4C-49E8-8755-B6EEC3811483}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="TEST" ID="{D332EF03-08E0-48A3-A3FC-011CDEA462D2}" ShortID="409336110">
+					<ChildrenList>
+						<Event Name="SFX_TEST_ENV_Loop_Start" ID="{FF7E050F-2CD6-4896-8C51-4262B976543C}">
+							<ChildrenList>
+								<Action Name="" ID="{EB314CB2-4A60-462C-B4EF-1F6329AD9AE8}" ShortID="142480368">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Atmospheric Flute_Soundscape-12" ID="{E1844219-8A06-4676-A91B-B2CF5428E313}" WorkUnitID="{CCB50F2D-FE48-4E6E-801E-289C52AAF629}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>
