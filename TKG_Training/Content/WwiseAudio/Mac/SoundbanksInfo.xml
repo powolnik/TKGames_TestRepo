@@ -30,6 +30,10 @@
 					<ShortName>TEST\Atmospheric Flute_Soundscape-12.wav</ShortName>
 					<Path>SFX\TEST\Atmospheric Flute_Soundscape-12_D79FB2B7.wem</Path>
 				</File>
+				<File Id="688338804" Language="SFX">
+					<ShortName>TEST\38 Wind in grass_Velebit mountain.WAV</ShortName>
+					<Path>SFX\TEST\38 Wind in grass_Velebit mountain_10C4C929.wem</Path>
+				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
 		<SoundBank Id="1355168291" Language="SFX">

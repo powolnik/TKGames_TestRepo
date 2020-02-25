@@ -4,6 +4,13 @@
 		<WorkUnit Name="Default Work Unit" ID="{CCB50F2D-FE48-4E6E-801E-289C52AAF629}" PersistMode="Standalone">
 			<ChildrenList>
 				<ActorMixer Name="TEST" ID="{36EBB997-3C4A-45A1-A4BD-927E356F2BDD}" ShortID="922021158">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-3</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2F7E5CE0-8488-4150-A956-B9493FC54128}"/>
@@ -16,6 +23,11 @@
 						<Sound Name="Atmospheric Flute_Soundscape-12" ID="{E1844219-8A06-4676-A91B-B2CF5428E313}" ShortID="622349509">
 							<PropertyList>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-96</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
