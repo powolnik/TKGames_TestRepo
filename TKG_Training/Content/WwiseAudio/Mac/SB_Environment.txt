@@ -1,0 +1,8 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3583227810	SFX_ENV_Forest_Loop_Start			\Default Work Unit\Environment\ENV_Forest\SFX_ENV_Forest_Loop_Start	
+	4021107866	SFX_ENV_Forest_Loop_Stop			\Default Work Unit\Environment\ENV_Forest\SFX_ENV_Forest_Loop_Stop	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	483560552	05 Crickets_owls_summer night	E:\Silnik\PROJECT\TK_Repo_Folder\TKGames_TestRepo\TKG_Training\TKG_Training_WwiseProject\.cache\Mac\SFX\Environment\Forest\05 Crickets_owls_summer night_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\ENV_Wind\05 Crickets_owls_summer night		28789228
+	765958045	MAGIC AIR Large Whoosh, Swirl, Wind Gust, Foliage 01	E:\Silnik\PROJECT\TK_Repo_Folder\TKGames_TestRepo\TKG_Training\TKG_Training_WwiseProject\.cache\Mac\SFX\Environment\Wind\MAGIC AIR Large Whoosh, Swirl, Wind Gust, Foliage 01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\ENV_Wind\ENV_Wind_Gusts\MAGIC AIR Large Whoosh, Swirl, Wind Gust, Foliage 01		438912
+

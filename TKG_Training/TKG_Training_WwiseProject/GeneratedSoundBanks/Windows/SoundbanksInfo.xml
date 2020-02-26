@@ -11,26 +11,53 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
+		<SoundBank Id="40556624" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\SB_Environment</ObjectPath>
+			<ShortName>SB_Environment</ShortName>
+			<Path>SB_Environment.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3583227810" Name="SFX_ENV_Forest_Loop_Start" ObjectPath="\Events\Default Work Unit\Environment\ENV_Forest\SFX_ENV_Forest_Loop_Start">
+					<IncludedMemoryFiles>
+						<File Id="483560552" Language="SFX">
+							<ShortName>Environment\Forest\05 Crickets_owls_summer night.WAV</ShortName>
+							<Path>SFX\Environment\Forest\05 Crickets_owls_summer night_D79FB2B7.wem</Path>
+						</File>
+						<File Id="765958045" Language="SFX">
+							<ShortName>Environment\Wind\MAGIC AIR Large Whoosh, Swirl, Wind Gust, Foliage 01.wav</ShortName>
+							<Path>SFX\Environment\Wind\MAGIC AIR Large Whoosh, Swirl, Wind Gust, Foliage 01_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4021107866" Name="SFX_ENV_Forest_Loop_Stop" ObjectPath="\Events\Default Work Unit\Environment\ENV_Forest\SFX_ENV_Forest_Loop_Stop"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="483560552" Language="SFX">
+					<ShortName>Environment\Forest\05 Crickets_owls_summer night.WAV</ShortName>
+					<Path>SFX\Environment\Forest\05 Crickets_owls_summer night_D79FB2B7.wem</Path>
+				</File>
+				<File Id="765958045" Language="SFX">
+					<ShortName>Environment\Wind\MAGIC AIR Large Whoosh, Swirl, Wind Gust, Foliage 01.wav</ShortName>
+					<Path>SFX\Environment\Wind\MAGIC AIR Large Whoosh, Swirl, Wind Gust, Foliage 01_10C4C929.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="649986797" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\SB_Weapon</ObjectPath>
+			<ShortName>SB_Weapon</ShortName>
+			<Path>SB_Weapon.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="660045834" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\SB_Character</ObjectPath>
+			<ShortName>SB_Character</ShortName>
+			<Path>SB_Character.bnk</Path>
+		</SoundBank>
 		<SoundBank Id="690783697" Language="SFX">
 			<ObjectPath>\SoundBanks\Default Work Unit\SB_TEST</ObjectPath>
 			<ShortName>SB_TEST</ShortName>
 			<Path>SB_TEST.bnk</Path>
 			<IncludedEvents>
-				<Event Id="2327566415" Name="SFX_TEST_ENV_Loop_Start" ObjectPath="\Events\Default Work Unit\TEST\SFX_TEST_ENV_Loop_Start">
-					<IncludedMemoryFiles>
-						<File Id="224535993" Language="SFX">
-							<ShortName>TEST\Atmospheric Flute_Soundscape-12.wav</ShortName>
-							<Path>SFX\TEST\Atmospheric Flute_Soundscape-12_D79FB2B7.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
+				<Event Id="2327566415" Name="SFX_TEST_ENV_Loop_Start" ObjectPath="\Events\Default Work Unit\TEST\SFX_TEST_ENV_Loop_Start"/>
 			</IncludedEvents>
-			<IncludedMemoryFiles>
-				<File Id="224535993" Language="SFX">
-					<ShortName>TEST\Atmospheric Flute_Soundscape-12.wav</ShortName>
-					<Path>SFX\TEST\Atmospheric Flute_Soundscape-12_D79FB2B7.wem</Path>
-				</File>
-			</IncludedMemoryFiles>
 		</SoundBank>
 		<SoundBank Id="1355168291" Language="SFX">
 			<ObjectPath>Init</ObjectPath>

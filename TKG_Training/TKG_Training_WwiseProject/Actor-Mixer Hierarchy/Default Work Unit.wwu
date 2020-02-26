@@ -22,6 +22,11 @@
 					<ChildrenList>
 						<Sound Name="Atmospheric Flute_Soundscape-12" ID="{E1844219-8A06-4676-A91B-B2CF5428E313}" ShortID="622349509">
 							<PropertyList>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>

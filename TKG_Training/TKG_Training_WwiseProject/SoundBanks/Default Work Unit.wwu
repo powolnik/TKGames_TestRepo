@@ -11,6 +11,42 @@
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
+				<SoundBank Name="SB_Character" ID="{53C0F153-A3FB-4E0F-9EED-EB57A1F549D8}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="10"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ObjectInclusionList>
+						<ObjectRef Name="Character" ID="{82CB562E-1BE7-4063-BC05-1C7906487EAE}" WorkUnitID="{82CB562E-1BE7-4063-BC05-1C7906487EAE}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Character" ID="{377FAD91-0809-4377-AA7A-4FE55ACEBAF2}" WorkUnitID="{377FAD91-0809-4377-AA7A-4FE55ACEBAF2}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="SB_Environment" ID="{1E050844-9FE4-49E4-97A8-1A358CA54C12}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="4"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ObjectInclusionList>
+						<ObjectRef Name="Environment" ID="{AE596FD7-4BE5-44B1-A255-1424434F6DBA}" WorkUnitID="{AE596FD7-4BE5-44B1-A255-1424434F6DBA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Environment" ID="{65B991D2-839C-4F9B-ACCB-E4BFD1BCA2B6}" WorkUnitID="{65B991D2-839C-4F9B-ACCB-E4BFD1BCA2B6}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="SB_Weapon" ID="{B487CD62-E6E8-42FB-9998-11C0E433CC0F}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="21"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ObjectInclusionList>
+						<ObjectRef Name="Weapon" ID="{94DD7AE7-ED88-4373-9F8A-1845CCC035EF}" WorkUnitID="{94DD7AE7-ED88-4373-9F8A-1845CCC035EF}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Weapon" ID="{8295138D-ECAD-4907-8C3C-1171474BBD74}" WorkUnitID="{8295138D-ECAD-4907-8C3C-1171474BBD74}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundBanks>

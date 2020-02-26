@@ -3,5 +3,4 @@ Event	ID	Name			Wwise Object Path	Notes
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	224535993	Atmospheric Flute_Soundscape-12	E:\Silnik\PROJECT\TK_Repo_Folder\TKGames_TestRepo\TKG_Training\TKG_Training_WwiseProject\.cache\Windows\SFX\TEST\Atmospheric Flute_Soundscape-12_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\TEST\Atmospheric Flute_Soundscape-12		13728060
-	688338804	38 Wind in grass_Velebit mountain	E:\Silnik\PROJECT\TK_Repo_Folder\TKGames_TestRepo\TKG_Training\TKG_Training_WwiseProject\.cache\Windows\SFX\TEST\38 Wind in grass_Velebit mountain_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\TEST\38 Wind in grass_Velebit mountain		29160236
 

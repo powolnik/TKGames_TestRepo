@@ -1,1 +1,2 @@
-SB_TEST	"SFX_TEST_ENV_Loop_Start"
+SB_Environment	"SFX_ENV_Forest_Loop_Start"
+SB_Environment	"SFX_ENV_Forest_Loop_Stop"

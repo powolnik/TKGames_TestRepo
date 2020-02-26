@@ -6,6 +6,258 @@
 				<Property Name="Color" Type="int16" Value="4"/>
 				<Property Name="OverrideColor" Type="bool" Value="True"/>
 			</PropertyList>
+			<ChildrenList>
+				<ActorMixer Name="ENV_Wind" ID="{9B46A701-73B6-49F2-ABC5-A74EAA027CA5}" ShortID="15022972">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2F7E5CE0-8488-4150-A956-B9493FC54128}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Environment" ID="{21F983CC-9554-4FE6-98DE-707F64E09CDF}" WorkUnitID="{11FBC1CC-BE14-423B-B198-CA7707715B0A}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="ENV_Wind_Gusts" ID="{C39D4A34-3931-487E-99F1-87C73E112846}" ShortID="570804600">
+							<Comment>Randomizacja pozycji i zmiana pozycji po kazdym uzyciu na inna
+</Comment>
+							<PropertyList>
+								<Property Name="3DPosition" Type="int16" Value="2"/>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="HoldListenerOrientation" Type="bool" Value="True"/>
+								<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
+								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+								<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="8.5"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-13</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2F7E5CE0-8488-4150-A956-B9493FC54128}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{11FBC1CC-BE14-423B-B198-CA7707715B0A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="MAGIC AIR Large Whoosh, Swirl, Wind Gust, Foliage 01" ID="{67722844-C8F9-4F76-B28C-73229F87DEBE}" ShortID="216715243">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-11</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2F7E5CE0-8488-4150-A956-B9493FC54128}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Environment" ID="{21F983CC-9554-4FE6-98DE-707F64E09CDF}" WorkUnitID="{11FBC1CC-BE14-423B-B198-CA7707715B0A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MAGIC AIR Large Whoosh, Swirl, Wind Gust, Foliage 01" ID="{14D43FE4-2F15-4A99-B210-567C3F1C7E24}">
+											<Language>SFX</Language>
+											<AudioFile>Environment\Wind\MAGIC AIR Large Whoosh, Swirl, Wind Gust, Foliage 01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="765958045"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MAGIC AIR Large Whoosh, Swirl, Wind Gust, Foliage 01" ID="{14D43FE4-2F15-4A99-B210-567C3F1C7E24}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MAGIC AIR Large Whoosh, Swirl, Wind Gust, Foliage 01_01" ID="{081A9AE4-8BD0-4813-A0B6-66FFCB85F793}" ShortID="125574963">
+									<PropertyList>
+										<Property Name="3DPosition" Type="int16" Value="2"/>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="HoldListenerOrientation" Type="bool" Value="True"/>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>15</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>100</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-11</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2F7E5CE0-8488-4150-A956-B9493FC54128}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Environment" ID="{21F983CC-9554-4FE6-98DE-707F64E09CDF}" WorkUnitID="{11FBC1CC-BE14-423B-B198-CA7707715B0A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MAGIC AIR Large Whoosh, Swirl, Wind Gust, Foliage 01" ID="{6B76D148-9DA1-48F6-B4AD-8E4063A75E1D}">
+											<Language>SFX</Language>
+											<AudioFile>Environment\Wind\MAGIC AIR Large Whoosh, Swirl, Wind Gust, Foliage 01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="765958045"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<PositioningInfo>
+										<Position Name="" ID="{C50B05D0-5D73-4C56-97FE-FCE34C796622}">
+											<PropertyList>
+												<Property Name="NewPathForEachSound" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismRandomOrSequence" Type="int16" Value="1"/>
+											</PropertyList>
+											<ChildrenList>
+												<Path2D Name="Position_1" ID="{EA1F00EE-960D-4E66-B233-59287B222B0D}">
+													<PointList>
+														<Point>
+															<XPos>0</XPos>
+															<YPos>50</YPos>
+															<Flags>12</Flags>
+															<Time>0</Time>
+														</Point>
+													</PointList>
+												</Path2D>
+												<Path2D Name="Position_2" ID="{BF716FD5-B9CD-433E-8B3B-D9E84906FFB5}">
+													<PointList>
+														<Point>
+															<XPos>100</XPos>
+															<YPos>0</YPos>
+															<Flags>12</Flags>
+															<Time>0</Time>
+														</Point>
+													</PointList>
+												</Path2D>
+												<Path2D Name="Position_3" ID="{BC299EC3-54AB-415D-9449-7C3901A60D01}">
+													<PointList>
+														<Point>
+															<XPos>-100</XPos>
+															<YPos>0</YPos>
+															<Flags>12</Flags>
+															<Time>0</Time>
+														</Point>
+													</PointList>
+												</Path2D>
+											</ChildrenList>
+										</Position>
+									</PositioningInfo>
+									<ActiveSourceList>
+										<ActiveSource Name="MAGIC AIR Large Whoosh, Swirl, Wind Gust, Foliage 01" ID="{6B76D148-9DA1-48F6-B4AD-8E4063A75E1D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<PositioningInfo>
+								<Position Name="" ID="{BF4E04E7-7616-4AE5-8A1B-AADBED54B17B}">
+									<PropertyList>
+										<Property Name="NewPathForEachSound" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismRandomOrSequence" Type="int16" Value="1"/>
+									</PropertyList>
+									<ChildrenList>
+										<Path2D Name="Position_1" ID="{45916D9A-F717-4E30-8084-137E574A9EC0}">
+											<PointList>
+												<Point>
+													<XPos>0</XPos>
+													<YPos>50</YPos>
+													<Flags>12</Flags>
+													<Time>0</Time>
+												</Point>
+											</PointList>
+										</Path2D>
+										<Path2D Name="Position_2" ID="{0296273E-B506-4806-953A-FDD005247CDD}">
+											<PointList>
+												<Point>
+													<XPos>100</XPos>
+													<YPos>0</YPos>
+													<Flags>12</Flags>
+													<Time>0</Time>
+												</Point>
+											</PointList>
+										</Path2D>
+										<Path2D Name="Position_3" ID="{08ADEA9A-DC05-4BF8-A9DD-C7FF6375E75C}">
+											<PointList>
+												<Point>
+													<XPos>-100</XPos>
+													<YPos>0</YPos>
+													<Flags>12</Flags>
+													<Time>0</Time>
+												</Point>
+											</PointList>
+										</Path2D>
+									</ChildrenList>
+								</Position>
+							</PositioningInfo>
+						</RandomSequenceContainer>
+						<Sound Name="05 Crickets_owls_summer night" ID="{D0DA6EDE-65F0-43FB-B571-A2567586A6F4}" ShortID="501910653">
+							<PropertyList>
+								<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
+								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-14</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2F7E5CE0-8488-4150-A956-B9493FC54128}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{11FBC1CC-BE14-423B-B198-CA7707715B0A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="05 Crickets_owls_summer night" ID="{9A266A01-1B83-4E3B-907E-C4E077E572D4}">
+									<Language>SFX</Language>
+									<AudioFile>Environment\Forest\05 Crickets_owls_summer night.WAV</AudioFile>
+									<MediaIDList>
+										<MediaID ID="483560552"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="05 Crickets_owls_summer night" ID="{9A266A01-1B83-4E3B-907E-C4E077E572D4}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>
