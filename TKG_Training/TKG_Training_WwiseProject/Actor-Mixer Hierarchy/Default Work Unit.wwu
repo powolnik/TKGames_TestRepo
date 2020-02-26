@@ -52,6 +52,9 @@
 						</Sound>
 					</ChildrenList>
 				</ActorMixer>
+				<WorkUnit Name="Character" ID="{377FAD91-0809-4377-AA7A-4FE55ACEBAF2}" PersistMode="Reference"/>
+				<WorkUnit Name="Environment" ID="{AE596FD7-4BE5-44B1-A255-1424434F6DBA}" PersistMode="Reference"/>
+				<WorkUnit Name="Weapon" ID="{8295138D-ECAD-4907-8C3C-1171474BBD74}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

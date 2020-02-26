@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{9DFC630A-D429-4915-8E09-43ABE0123B4E}" SchemaVersion="97" RootDocumentID="{AB532971-1C08-4FF1-8FFD-077B69925362}">
+	<Attenuations>
+		<WorkUnit Name="Weapon" ID="{9DFC630A-D429-4915-8E09-43ABE0123B4E}" OwnerID="{AB532971-1C08-4FF1-8FFD-077B69925362}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="21"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+		</WorkUnit>
+	</Attenuations>
+</WwiseDocument>

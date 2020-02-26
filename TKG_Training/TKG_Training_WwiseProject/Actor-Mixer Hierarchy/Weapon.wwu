@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{8295138D-ECAD-4907-8C3C-1171474BBD74}" SchemaVersion="97" RootDocumentID="{CCB50F2D-FE48-4E6E-801E-289C52AAF629}">
+	<AudioObjects>
+		<WorkUnit Name="Weapon" ID="{8295138D-ECAD-4907-8C3C-1171474BBD74}" OwnerID="{CCB50F2D-FE48-4E6E-801E-289C52AAF629}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="20"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
