@@ -1187,10 +1187,3 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.02.23-01.05.55:117][824]LogSavePackage: Moving '../../../../../../Users/qikcik/Documents/Unreal Projects/TKGames_TestRepo/TKG_Training/Saved/CH_Player6A31AFBC41094CAF64A0249FE2DC9015.tmp' to '../../../../../../Users/qikcik/Documents/Unreal Projects/TKGames_TestRepo/TKG_Training/Content/Characters/Player/Blueprints/CH_Player.uasset'
 [2020.02.23-01.05.55:127][824]AssetCheck: New page: Asset Save: CH_Player
 [2020.02.23-01.05.55:127][824]LogContentValidation: Display: Validating Blueprint /Game/Characters/Player/Blueprints/CH_Player.CH_Player
-[2020.02.23-01.09.33:191][  3]LogUObjectHash: Compacting FUObjectHashTables data took   2.86ms
-[2020.02.23-01.09.33:191][  3]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/LVL_One/LVL_One_Persistent' took 0.040
-[2020.02.23-01.09.33:192][  3]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/Player/Blueprints/BP_Player_AnimBlueprint] ([1] browsable assets)...
-[2020.02.23-01.09.33:208][  3]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Characters/Player/Blueprints/BP_Player_AnimBlueprint.BP_Player_AnimBlueprint]
-[2020.02.23-01.09.33:208][  3]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/Player/Blueprints/BP_Player_AnimBlueprint]
-[2020.02.23-01.09.33:242][  3]LogSavePackage: Moving '../../../../../../Users/qikcik/Documents/Unreal Projects/TKGames_TestRepo/TKG_Training/Saved/BP_Player_AnimBlueprint_Auto1301B610348839402CA5C5098098FE43F.tmp' to '../../../../../../Users/qikcik/Documents/Unreal Projects/TKGames_TestRepo/TKG_Training/Saved/Autosaves/Game/Characters/Player/Blueprints/BP_Player_AnimBlueprint_Auto1.uasset'
-[2020.02.23-01.09.33:242][  3]LogFileHelpers: Auto-saving content packages took 0.051
