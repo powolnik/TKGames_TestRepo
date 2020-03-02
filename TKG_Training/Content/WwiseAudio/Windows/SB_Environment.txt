@@ -1,8 +1,12 @@
 Event	ID	Name			Wwise Object Path	Notes
+	2431270508	SFX_ENV_Bird_Loop_Start			\Default Work Unit\Environment\ENV_Forest\ENV_Bird_loop\SFX_ENV_Bird_Loop_Start	
+	3069305472	SFX_ENV_Bird_Loop_Stop			\Default Work Unit\Environment\ENV_Forest\ENV_Bird_loop\SFX_ENV_Bird_Loop_Stop	
 	3583227810	SFX_ENV_Forest_Loop_Start			\Default Work Unit\Environment\ENV_Forest\SFX_ENV_Forest_Loop_Start	
 	4021107866	SFX_ENV_Forest_Loop_Stop			\Default Work Unit\Environment\ENV_Forest\SFX_ENV_Forest_Loop_Stop	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	483560552	05 Crickets_owls_summer night	E:\Silnik\PROJECT\TK_Repo_Folder\TKGames_TestRepo\TKG_Training\TKG_Training_WwiseProject\.cache\Windows\SFX\Environment\Forest\05 Crickets_owls_summer night_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\ENV_Wind\05 Crickets_owls_summer night		28789228
+	73443616	countryside quiet forest bird gull call	E:\Silnik\PROJECT\TK_Repo_Folder\TKGames_TestRepo\TKG_Training\TKG_Training_WwiseProject\.cache\Windows\SFX\Environment\Forest\countryside quiet forest bird gull call_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\ENV_Wind\countryside quiet forest bird gull call		49643460
+	574502201	PRB524 Duet Bald Eagle & Tawny Eagle - Calls, Squawk Cry - Neumann MF	E:\Silnik\PROJECT\TK_Repo_Folder\TKGames_TestRepo\TKG_Training\TKG_Training_WwiseProject\.cache\Windows\SFX\Environment\Forest\PRB524 Duet Bald Eagle & Tawny Eagle - Calls, Squawk Cry - Neumann MF_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\ENV_Birds\ENV_Birds_Loop\PRB524 Duet Bald Eagle & Tawny Eagle - Calls, Squawk Cry - Neumann MF		3385632
+	748475811	PRB216 Saker Falcon (Tosia) - Call, Squawk Screech Scream Cry, High Nervous - 8060 MF	E:\Silnik\PROJECT\TK_Repo_Folder\TKGames_TestRepo\TKG_Training\TKG_Training_WwiseProject\.cache\Windows\SFX\Environment\Forest\PRB216 Saker Falcon (Tosia) - Call, Squawk Screech Scream Cry, High Nervous - 8060 MF_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\ENV_Birds\ENV_Birds_Loop\PRB216 Saker Falcon (Tosia) - Call, Squawk Screech Scream Cry, High Nervous - 8060 MF		5543466
 	765958045	MAGIC AIR Large Whoosh, Swirl, Wind Gust, Foliage 01	E:\Silnik\PROJECT\TK_Repo_Folder\TKGames_TestRepo\TKG_Training\TKG_Training_WwiseProject\.cache\Windows\SFX\Environment\Wind\MAGIC AIR Large Whoosh, Swirl, Wind Gust, Foliage 01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\ENV_Wind\ENV_Wind_Gusts\MAGIC AIR Large Whoosh, Swirl, Wind Gust, Foliage 01		438912
 

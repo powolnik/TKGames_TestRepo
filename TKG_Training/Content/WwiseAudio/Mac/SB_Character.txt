@@ -1,0 +1,14 @@
+Event	ID	Name			Wwise Object Path	Notes
+	4135134148	CHAR_Steps_Dirt_Random_Play			\Default Work Unit\Character\CHAR_Steps\CHAR_Steps_Dirt_Random_Play	
+
+Modulator LFO	ID	Name			Wwise Object Path	Notes
+	852053681	Modulator LFO (Custom)				
+
+Effect plug-ins	ID	Name	Type				Notes
+	767200590	Wwise_Guitar_Distortion_(Custom)	Wwise Guitar Distortion			
+	2755291684	Pumping_and_Breathing_1	Wwise Compressor			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	106913585	PM_SDNG_Single_Step_Footstep_19	E:\Silnik\PROJECT\TK_Repo_Folder\TKGames_TestRepo\TKG_Training\TKG_Training_WwiseProject\.cache\Mac\SFX\Character\PM_SDNG_Single_Step_Footstep_19_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\CHAR_Steps_Dirt\CHAR_Steps_Dirt_Random\PM_SDNG_Single_Step_Footstep_19		84162
+	862676447	PM_SDNG_Single_Step_Footstep_46	E:\Silnik\PROJECT\TK_Repo_Folder\TKGames_TestRepo\TKG_Training\TKG_Training_WwiseProject\.cache\Mac\SFX\Character\PM_SDNG_Single_Step_Footstep_46_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\CHAR_Steps_Dirt\CHAR_Steps_Dirt_Random\PM_SDNG_Single_Step_Footstep_46		101122
+

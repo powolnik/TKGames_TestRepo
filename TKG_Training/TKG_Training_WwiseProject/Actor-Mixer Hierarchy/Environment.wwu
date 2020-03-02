@@ -46,7 +46,7 @@
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-13</Value>
+										<Value>-8</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -212,25 +212,16 @@
 								</Position>
 							</PositioningInfo>
 						</RandomSequenceContainer>
-						<Sound Name="05 Crickets_owls_summer night" ID="{D0DA6EDE-65F0-43FB-B571-A2567586A6F4}" ShortID="501910653">
+						<Sound Name="countryside quiet forest bird gull call" ID="{93F7C719-44E6-4219-96DC-D82AE3368C26}" ShortID="226040926">
 							<PropertyList>
-								<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
-								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+								<Property Name="3DPosition" Type="int16" Value="2"/>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="HoldListenerOrientation" Type="bool" Value="True"/>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-								<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
-								<Property Name="MaxSoundPerInstance" Type="int16">
-									<ValueList>
-										<Value>1</Value>
-									</ValueList>
-								</Property>
-								<Property Name="UseMaxSoundPerInstance" Type="bool">
-									<ValueList>
-										<Value>True</Value>
-									</ValueList>
-								</Property>
+								<Property Name="OverrideEffect" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-14</Value>
+										<Value>-3</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -239,22 +230,169 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2F7E5CE0-8488-4150-A956-B9493FC54128}"/>
 								</Reference>
 								<Reference Name="OutputBus">
+									<ObjectRef Name="Environment" ID="{21F983CC-9554-4FE6-98DE-707F64E09CDF}" WorkUnitID="{11FBC1CC-BE14-423B-B198-CA7707715B0A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="countryside quiet forest bird gull call" ID="{EC555458-B4CE-4C90-950A-6A9A165E1E66}">
+									<Language>SFX</Language>
+									<AudioFile>Environment\Forest\countryside quiet forest bird gull call.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="73443616"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<PositioningInfo>
+								<Position Name="" ID="{1633C6CC-F7EA-44C8-8056-C76FA1462D1E}">
+									<PropertyList>
+										<Property Name="NewPathForEachSound" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismRandomOrSequence" Type="int16" Value="1"/>
+									</PropertyList>
+									<ChildrenList>
+										<Path2D Name="Position_1" ID="{1D5CEB56-2B56-4B14-906A-BD77D5815CA2}">
+											<PointList>
+												<Point>
+													<XPos>0</XPos>
+													<YPos>50</YPos>
+													<Flags>12</Flags>
+													<Time>0</Time>
+												</Point>
+											</PointList>
+										</Path2D>
+										<Path2D Name="Position_2" ID="{B6008D6F-1F1B-45A1-9AF7-8A15B7B44BEA}">
+											<PointList>
+												<Point>
+													<XPos>100</XPos>
+													<YPos>0</YPos>
+													<Flags>12</Flags>
+													<Time>0</Time>
+												</Point>
+											</PointList>
+										</Path2D>
+										<Path2D Name="Position_3" ID="{ECDFB872-84EE-44F6-BE26-23A97C5EA8AB}">
+											<PointList>
+												<Point>
+													<XPos>-100</XPos>
+													<YPos>0</YPos>
+													<Flags>12</Flags>
+													<Time>0</Time>
+												</Point>
+											</PointList>
+										</Path2D>
+									</ChildrenList>
+								</Position>
+							</PositioningInfo>
+							<ActiveSourceList>
+								<ActiveSource Name="countryside quiet forest bird gull call" ID="{EC555458-B4CE-4C90-950A-6A9A165E1E66}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</ActorMixer>
+				<ActorMixer Name="ENV_Birds" ID="{4E11E635-0E2A-4639-8172-1B05E540EF82}" ShortID="100971053">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-10</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2F7E5CE0-8488-4150-A956-B9493FC54128}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Environment" ID="{21F983CC-9554-4FE6-98DE-707F64E09CDF}" WorkUnitID="{11FBC1CC-BE14-423B-B198-CA7707715B0A}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="ENV_Birds_Loop" ID="{661DEFA5-0B6B-476B-AAF5-269B07F66384}" ShortID="136074394">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="1.5"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>12</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="ATT_ENV_Small" ID="{CFE643BD-F07B-40A6-A2D2-A43A312B9766}" WorkUnitID="{68076427-B813-4884-8A23-36304A6F1BD6}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2F7E5CE0-8488-4150-A956-B9493FC54128}"/>
+								</Reference>
+								<Reference Name="OutputBus">
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{11FBC1CC-BE14-423B-B198-CA7707715B0A}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="05 Crickets_owls_summer night" ID="{9A266A01-1B83-4E3B-907E-C4E077E572D4}">
-									<Language>SFX</Language>
-									<AudioFile>Environment\Forest\05 Crickets_owls_summer night.WAV</AudioFile>
-									<MediaIDList>
-										<MediaID ID="483560552"/>
-									</MediaIDList>
-								</AudioFileSource>
+								<Sound Name="PRB216 Saker Falcon (Tosia) - Call, Squawk Screech Scream Cry, High Nervous - 8060 MF" ID="{667C3095-09E9-42BF-8AC5-6BD9F66BC2D2}" ShortID="634744423">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="ATT_ENV_Small" ID="{CFE643BD-F07B-40A6-A2D2-A43A312B9766}" WorkUnitID="{68076427-B813-4884-8A23-36304A6F1BD6}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2F7E5CE0-8488-4150-A956-B9493FC54128}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{11FBC1CC-BE14-423B-B198-CA7707715B0A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="PRB216 Saker Falcon (Tosia) - Call, Squawk Screech Scream Cry, High Nervous - 8060 MF" ID="{F5035303-0BBE-4B97-8A43-1CDC02BE965C}">
+											<Language>SFX</Language>
+											<AudioFile>Environment\Forest\PRB216 Saker Falcon (Tosia) - Call, Squawk Screech Scream Cry, High Nervous - 8060 MF.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="748475811"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="PRB216 Saker Falcon (Tosia) - Call, Squawk Screech Scream Cry, High Nervous - 8060 MF" ID="{F5035303-0BBE-4B97-8A43-1CDC02BE965C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="PRB524 Duet Bald Eagle &amp; Tawny Eagle - Calls, Squawk Cry - Neumann MF" ID="{544B2E62-819C-43B0-9B13-417C6C2CD4FD}" ShortID="715551993">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="ATT_ENV_Small" ID="{CFE643BD-F07B-40A6-A2D2-A43A312B9766}" WorkUnitID="{68076427-B813-4884-8A23-36304A6F1BD6}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2F7E5CE0-8488-4150-A956-B9493FC54128}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{11FBC1CC-BE14-423B-B198-CA7707715B0A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="PRB524 Duet Bald Eagle &amp; Tawny Eagle - Calls, Squawk Cry - Neumann MF" ID="{13210C40-CA09-4041-A6C2-AE5C2252E0BC}">
+											<Language>SFX</Language>
+											<AudioFile>Environment\Forest\PRB524 Duet Bald Eagle &amp; Tawny Eagle - Calls, Squawk Cry - Neumann MF.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="574502201"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="PRB524 Duet Bald Eagle &amp; Tawny Eagle - Calls, Squawk Cry - Neumann MF" ID="{13210C40-CA09-4041-A6C2-AE5C2252E0BC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="05 Crickets_owls_summer night" ID="{9A266A01-1B83-4E3B-907E-C4E077E572D4}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
+						</RandomSequenceContainer>
 					</ChildrenList>
 				</ActorMixer>
 			</ChildrenList>

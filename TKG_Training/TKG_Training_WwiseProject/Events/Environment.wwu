@@ -24,7 +24,7 @@
 								<Action Name="" ID="{C88366EB-F996-40E2-A5F0-80207EE6148F}" ShortID="6499054">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="05 Crickets_owls_summer night" ID="{D0DA6EDE-65F0-43FB-B571-A2567586A6F4}" WorkUnitID="{AE596FD7-4BE5-44B1-A255-1424434F6DBA}"/>
+											<ObjectRef Name="countryside quiet forest bird gull call" ID="{93F7C719-44E6-4219-96DC-D82AE3368C26}" WorkUnitID="{AE596FD7-4BE5-44B1-A255-1424434F6DBA}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -51,12 +51,45 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="05 Crickets_owls_summer night" ID="{D0DA6EDE-65F0-43FB-B571-A2567586A6F4}" WorkUnitID="{AE596FD7-4BE5-44B1-A255-1424434F6DBA}"/>
+											<ObjectRef Name="countryside quiet forest bird gull call" ID="{93F7C719-44E6-4219-96DC-D82AE3368C26}" WorkUnitID="{AE596FD7-4BE5-44B1-A255-1424434F6DBA}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Folder Name="ENV_Bird_loop" ID="{FA3582DB-8B52-4361-B05B-5ACA8B64BCBC}" ShortID="228913998">
+							<ChildrenList>
+								<Event Name="SFX_ENV_Bird_Loop_Start" ID="{72E149E8-294C-433A-97F4-02C1148446D3}">
+									<ChildrenList>
+										<Action Name="" ID="{87CDE57B-F1D2-4001-AD14-A0D7A2009676}" ShortID="573418201">
+											<PropertyList>
+												<Property Name="FadeTime" Type="Real64" Value="0.3"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="ENV_Birds_Loop" ID="{661DEFA5-0B6B-476B-AAF5-269B07F66384}" WorkUnitID="{AE596FD7-4BE5-44B1-A255-1424434F6DBA}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="SFX_ENV_Bird_Loop_Stop" ID="{0484829A-02FF-4239-AF42-B42B17DB3FD3}">
+									<ChildrenList>
+										<Action Name="" ID="{FFCCDEBE-7E0C-42B9-B683-F1603788A505}" ShortID="685569380">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+												<Property Name="FadeTime" Type="Real64" Value="0.3"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="ENV_Birds_Loop" ID="{661DEFA5-0B6B-476B-AAF5-269B07F66384}" WorkUnitID="{AE596FD7-4BE5-44B1-A255-1424434F6DBA}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

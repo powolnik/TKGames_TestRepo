@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{6188CDC4-C5E0-48A5-88C0-47E14A793210}" SchemaVersion="97" RootDocumentID="{C3056038-3F90-469B-8CC5-98A5BAE3EA5D}">
+	<Switches>
+		<WorkUnit Name="SW_Dialogue" ID="{6188CDC4-C5E0-48A5-88C0-47E14A793210}" OwnerID="{C3056038-3F90-469B-8CC5-98A5BAE3EA5D}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="24"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<SwitchGroup Name="DIAL_Distance" ID="{31AD2A1B-D383-4C0A-9D4E-370643B173D6}">
+					<PropertyList>
+						<Property Name="UseGameParameter" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Switch Name="Close_Range" ID="{26E03DF0-76B6-4428-A2F1-0D9CC7B72F14}"/>
+						<Switch Name="Medium_Range" ID="{D40C2771-61C2-4CBB-B1BB-1624A710553E}"/>
+						<Switch Name="TooFar" ID="{4DDDFB20-063B-41C6-BA6E-D905D704497B}"/>
+					</ChildrenList>
+					<SwitchOnRTPC>
+						<GameParameterRef Name="Dist" ID="{B299A87B-5AF6-484D-96A3-F536D835E571}"/>
+						<Curve Name="" ID="{CCE8B600-1E14-4445-A507-79D204EEC2D3}">
+							<PropertyList>
+								<Property Name="Flags" Type="int32" Value="65537"/>
+							</PropertyList>
+							<PointList>
+								<Point>
+									<XPos>0</XPos>
+									<YPos>1</YPos>
+									<Flags>5</Flags>
+								</Point>
+								<Point>
+									<XPos>20000</XPos>
+									<YPos>2</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>40000</XPos>
+									<YPos>3</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>50000</XPos>
+									<YPos>3</YPos>
+									<Flags>37</Flags>
+								</Point>
+							</PointList>
+						</Curve>
+					</SwitchOnRTPC>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>

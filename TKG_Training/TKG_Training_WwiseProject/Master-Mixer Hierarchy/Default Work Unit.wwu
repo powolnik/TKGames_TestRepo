@@ -30,6 +30,12 @@
 										<Property Name="OverrideColor" Type="bool" Value="True"/>
 									</PropertyList>
 								</Bus>
+								<Bus Name="Dialogue" ID="{53A0D41E-86E3-4A7C-ACE8-B2E520C620CC}">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="24"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+								</Bus>
 							</ChildrenList>
 						</Bus>
 						<Bus Name="Reverb" ID="{E2D925FA-0184-4265-970E-5D23B2341B44}">

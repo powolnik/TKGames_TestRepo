@@ -1,3 +1,11 @@
+Switch Group	ID	Name			Wwise Object Path	Notes
+	2260190727	DIAL_Distance			\Default Work Unit\SW_Dialogue\DIAL_Distance	
+
+Switch	ID	Name	Switch Group			Notes
+	2580244398	Medium_Range	DIAL_Distance			
+	3221723129	Close_Range	DIAL_Distance			
+	3619665324	TooFar	DIAL_Distance			
+
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	348963605	Reverb			\Default Work Unit\Master Audio Bus\Reverb	
 	393239870	SFX			\Default Work Unit\Master Audio Bus\SFX	
@@ -5,6 +13,7 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 	1229948536	Environment			\Default Work Unit\Master Audio Bus\SFX\Environment	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 	3893417221	Weapon			\Default Work Unit\Master Audio Bus\SFX\Weapon	
+	3930136735	Dialogue			\Default Work Unit\Master Audio Bus\SFX\Dialogue	
 
 Audio Devices	ID	Name	Type				Notes
 	2317455096	No_Output	No Output			

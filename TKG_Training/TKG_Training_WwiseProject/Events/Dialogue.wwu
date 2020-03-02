@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E277E78D-FC63-455D-959C-FD94E8AE0C22}" SchemaVersion="97" RootDocumentID="{FBE1AEBE-2A4C-49E8-8755-B6EEC3811483}">
+	<Events>
+		<WorkUnit Name="Dialogue" ID="{E277E78D-FC63-455D-959C-FD94E8AE0C22}" OwnerID="{FBE1AEBE-2A4C-49E8-8755-B6EEC3811483}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="24"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Folder Name="Dialog" ID="{79AB9856-D38F-486D-B9D7-74BC4A1D46CC}" ShortID="147476373">
+					<ChildrenList>
+						<Event Name="DIAL_Sequence_Start" ID="{CC1D87F8-E2DE-4332-9FCE-2D78BF213014}">
+							<ChildrenList>
+								<Action Name="" ID="{3C8FCD79-D7FC-47DB-BA6C-698ACC986E37}" ShortID="804817868">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="DIAL_Sequence" ID="{BF561E31-792F-42C4-9B76-E0C8011A3D0D}" WorkUnitID="{F313F66D-E6B8-401E-916B-D9ACE894CC93}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="DIAL_Sequence_Stop" ID="{5A336B61-CA05-47E3-ADD1-BEFF724A095A}">
+							<ChildrenList>
+								<Action Name="" ID="{F18C11DE-AB55-4DF1-BD04-9B90A8E21B1B}" ShortID="387364437">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="DIAL_Sequence" ID="{BF561E31-792F-42C4-9B76-E0C8011A3D0D}" WorkUnitID="{F313F66D-E6B8-401E-916B-D9ACE894CC93}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

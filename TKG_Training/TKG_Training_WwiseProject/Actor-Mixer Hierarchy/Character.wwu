@@ -6,6 +6,248 @@
 				<Property Name="Color" Type="int16" Value="10"/>
 				<Property Name="OverrideColor" Type="bool" Value="True"/>
 			</PropertyList>
+			<ChildrenList>
+				<ActorMixer Name="CHAR_Steps_Dirt" ID="{42C68836-3D14-450D-8BB8-666E59A40EBB}" ShortID="513203801">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2F7E5CE0-8488-4150-A956-B9493FC54128}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Character" ID="{9B083BE4-D463-41DE-BE14-E147D404105A}" WorkUnitID="{11FBC1CC-BE14-423B-B198-CA7707715B0A}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="CHAR_Steps_Dirt_Random" ID="{B510AEBC-DEC2-4573-88D1-663B245DA598}" ShortID="174905706">
+							<PropertyList>
+								<Property Name="Highpass" Type="int16">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{3736F455-71FE-4BAC-9160-BCCC12B50F68}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="20"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="InitialDelay" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{33985D66-A7B7-41B4-9D5C-3B30CFBF3B2B}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="0.025"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Lowpass" Type="int16">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{3624E5CA-633C-4B5F-BD67-4ED81714F077}"/>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="OverrideEffect" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{9DF0B311-0CFD-4608-BA74-7DEDE89539BA}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="76"/>
+													<Property Name="Min" Type="Real64" Value="-101"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-19</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2F7E5CE0-8488-4150-A956-B9493FC54128}"/>
+								</Reference>
+								<Reference Name="Effect0">
+									<Custom>
+										<Effect Name="Wwise_Guitar_Distortion_(Custom)" ID="{445EA090-A220-4DA9-A9AD-4682DEA2E0DC}" ShortID="767200590" PluginName="Wwise Guitar Distortion" CompanyID="0" PluginID="126" PluginType="3">
+											<PropertyList>
+												<Property Name="DistortionDrive" Type="Real32" Value="49"/>
+												<Property Name="DistortionType" Type="int32" Value="1"/>
+												<Property Name="WetDryMix" Type="Real32" Value="0">
+													<RTPCList>
+														<RTPC Name="" ID="{7EE7F2CC-4187-4608-832A-82A945E92E77}" ShortID="637945965">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<Custom>
+																		<ModulatorLfo Name="Modulator LFO (Custom)" ID="{74F4AA2D-B7BD-4CB5-A799-7106A5D5BC59}" ShortID="852053681">
+																			<PropertyList>
+																				<Property Name="LfoAttack" Type="Real64">
+																					<ModifierList>
+																						<ModifierInfo>
+																							<Modifier Name="" ID="{7500AC5D-CF42-4739-9C7F-4B566C151128}">
+																								<PropertyList>
+																									<Property Name="Enabled" Type="bool" Value="True"/>
+																									<Property Name="Max" Type="Real64" Value="1"/>
+																									<Property Name="Min" Type="Real64" Value="-1"/>
+																								</PropertyList>
+																							</Modifier>
+																						</ModifierInfo>
+																					</ModifierList>
+																				</Property>
+																				<Property Name="LfoDepth" Type="Real64">
+																					<ModifierList>
+																						<ModifierInfo>
+																							<Modifier Name="" ID="{98F4296C-B3D2-4083-9962-798E645F9774}">
+																								<PropertyList>
+																									<Property Name="Enabled" Type="bool" Value="True"/>
+																									<Property Name="Max" Type="Real64" Value="59"/>
+																									<Property Name="Min" Type="Real64" Value="-45"/>
+																								</PropertyList>
+																							</Modifier>
+																						</ModifierInfo>
+																					</ModifierList>
+																				</Property>
+																				<Property Name="LfoFrequency" Type="Real64">
+																					<ModifierList>
+																						<ModifierInfo>
+																							<Modifier Name="" ID="{C0899A62-F7D6-4830-AF5C-3FBF3DCCBFF9}">
+																								<PropertyList>
+																									<Property Name="Enabled" Type="bool" Value="True"/>
+																									<Property Name="Max" Type="Real64" Value="737"/>
+																								</PropertyList>
+																							</Modifier>
+																						</ModifierInfo>
+																					</ModifierList>
+																				</Property>
+																				<Property Name="LfoInitialPhase" Type="Real64">
+																					<ModifierList>
+																						<ModifierInfo>
+																							<Modifier Name="" ID="{0EA773D7-94FF-42EF-9ED0-973C63C63DA7}">
+																								<PropertyList>
+																									<Property Name="Enabled" Type="bool" Value="True"/>
+																									<Property Name="Max" Type="Real64" Value="13"/>
+																									<Property Name="Min" Type="Real64" Value="-8"/>
+																								</PropertyList>
+																							</Modifier>
+																						</ModifierInfo>
+																					</ModifierList>
+																				</Property>
+																			</PropertyList>
+																		</ModulatorLfo>
+																	</Custom>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{A826FA3B-7C24-41DD-9C60-F17824148D7B}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="1"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-100</YPos>
+																		<Flags>21</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>1</XPos>
+																		<YPos>100</YPos>
+																		<Flags>53</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+											</PropertyList>
+										</Effect>
+									</Custom>
+								</Reference>
+								<Reference Name="Effect1" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
+									<ObjectRef Name="Pumping_and_Breathing_1" ID="{87BE3270-3D27-45BB-9E46-7F2D9380F523}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{11FBC1CC-BE14-423B-B198-CA7707715B0A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="PM_SDNG_Single_Step_Footstep_19" ID="{90305CDC-FE25-44B4-82F6-5FB2B54C3F3E}" ShortID="574327685">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{26590671-80D4-4FCB-8BA7-AE5F7162AD9F}">
+														<PropertyList>
+															<Property Name="Max" Type="Real64" Value="76"/>
+															<Property Name="Min" Type="Real64" Value="-101"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2F7E5CE0-8488-4150-A956-B9493FC54128}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{11FBC1CC-BE14-423B-B198-CA7707715B0A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="PM_SDNG_Single_Step_Footstep_19" ID="{BF53D8FC-2A6A-43CC-BEF8-C926E0FD91B1}">
+											<Language>SFX</Language>
+											<AudioFile>Character\PM_SDNG_Single_Step_Footstep_19.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="106913585"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="PM_SDNG_Single_Step_Footstep_19" ID="{BF53D8FC-2A6A-43CC-BEF8-C926E0FD91B1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="PM_SDNG_Single_Step_Footstep_46" ID="{A6A635CB-C976-416B-961E-975041F46A21}" ShortID="785306862">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{4EE76A84-B9D3-49DB-A939-F58B459EF53C}"/>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2F7E5CE0-8488-4150-A956-B9493FC54128}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{11FBC1CC-BE14-423B-B198-CA7707715B0A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="PM_SDNG_Single_Step_Footstep_46" ID="{9938707E-F179-4BFB-9D67-DD1A8E33EA2C}">
+											<Language>SFX</Language>
+											<AudioFile>Character\PM_SDNG_Single_Step_Footstep_46.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="862676447"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="PM_SDNG_Single_Step_Footstep_46" ID="{9938707E-F179-4BFB-9D67-DD1A8E33EA2C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>

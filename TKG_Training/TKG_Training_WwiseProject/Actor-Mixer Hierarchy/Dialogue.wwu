@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F313F66D-E6B8-401E-916B-D9ACE894CC93}" SchemaVersion="97" RootDocumentID="{CCB50F2D-FE48-4E6E-801E-289C52AAF629}">
+	<AudioObjects>
+		<WorkUnit Name="Dialogue" ID="{F313F66D-E6B8-401E-916B-D9ACE894CC93}" OwnerID="{CCB50F2D-FE48-4E6E-801E-289C52AAF629}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="24"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<ActorMixer Name="DIAL_Actor" ID="{408FDE47-6B0D-427A-99A7-D518BAF3EFF3}" ShortID="764118602">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2F7E5CE0-8488-4150-A956-B9493FC54128}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Dialogue" ID="{53A0D41E-86E3-4A7C-ACE8-B2E520C620CC}" WorkUnitID="{11FBC1CC-BE14-423B-B198-CA7707715B0A}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="DIAL_Sequence" ID="{BF561E31-792F-42C4-9B76-E0C8011A3D0D}" ShortID="732691404">
+							<PropertyList>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.3"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2F7E5CE0-8488-4150-A956-B9493FC54128}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{11FBC1CC-BE14-423B-B198-CA7707715B0A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<SwitchContainer Name="DIAL_Sequence_Part_01" ID="{5B0D1427-7893-433B-B44A-F001E55DA153}" ShortID="525471904">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2F7E5CE0-8488-4150-A956-B9493FC54128}"/>
+										</Reference>
+										<Reference Name="DefaultSwitchOrState">
+											<ObjectRef Name="Medium_Range" ID="{D40C2771-61C2-4CBB-B1BB-1624A710553E}" WorkUnitID="{6188CDC4-C5E0-48A5-88C0-47E14A793210}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{11FBC1CC-BE14-423B-B198-CA7707715B0A}"/>
+										</Reference>
+										<Reference Name="SwitchGroupOrStateGroup">
+											<ObjectRef Name="DIAL_Distance" ID="{31AD2A1B-D383-4C0A-9D4E-370643B173D6}" WorkUnitID="{6188CDC4-C5E0-48A5-88C0-47E14A793210}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="DIAL_Pierwsza_01" ID="{B9CD8FF4-7F87-4CAA-B60A-636B12262078}" ShortID="84555420">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2F7E5CE0-8488-4150-A956-B9493FC54128}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{11FBC1CC-BE14-423B-B198-CA7707715B0A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="DIAL_Pierwsza_01" ID="{7B3581D5-0474-4351-9E6B-741534C08DA7}">
+													<Language>SFX</Language>
+													<AudioFile>Dialogue\DIAL_Pierwsza_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="241913843"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="DIAL_Pierwsza_01" ID="{7B3581D5-0474-4351-9E6B-741534C08DA7}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="DIAL_Pierwsza_02" ID="{5C4E2D2D-A595-48DF-80C4-4785903591FA}" ShortID="352803488">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2F7E5CE0-8488-4150-A956-B9493FC54128}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{11FBC1CC-BE14-423B-B198-CA7707715B0A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="DIAL_Pierwsza_02" ID="{F82AF7A9-30A0-4A91-8AE2-E7BD888E9E8F}">
+													<Language>SFX</Language>
+													<AudioFile>Dialogue\DIAL_Pierwsza_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="238149055"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="DIAL_Pierwsza_02" ID="{F82AF7A9-30A0-4A91-8AE2-E7BD888E9E8F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="DIAL_Pierwsza_03" ID="{A19FF2DF-112C-47E6-BAB2-918994875EF2}" ShortID="459224066">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2F7E5CE0-8488-4150-A956-B9493FC54128}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{11FBC1CC-BE14-423B-B198-CA7707715B0A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="DIAL_Pierwsza_03" ID="{8AFF3E4B-50DE-4503-AF79-2BA201CF2D5D}">
+													<Language>SFX</Language>
+													<AudioFile>Dialogue\DIAL_Pierwsza_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="383554693"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="DIAL_Pierwsza_03" ID="{8AFF3E4B-50DE-4503-AF79-2BA201CF2D5D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<GroupingInfo>
+										<GroupingBehaviorList>
+											<GroupingBehavior>
+												<ItemRef Name="DIAL_Pierwsza_02" ID="{5C4E2D2D-A595-48DF-80C4-4785903591FA}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="DIAL_Pierwsza_03" ID="{A19FF2DF-112C-47E6-BAB2-918994875EF2}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="DIAL_Pierwsza_01" ID="{B9CD8FF4-7F87-4CAA-B60A-636B12262078}"/>
+											</GroupingBehavior>
+										</GroupingBehaviorList>
+										<GroupingList>
+											<Grouping>
+												<SwitchRef Name="TooFar" ID="{4DDDFB20-063B-41C6-BA6E-D905D704497B}"/>
+												<ItemList>
+													<ItemRef Name="DIAL_Pierwsza_01" ID="{B9CD8FF4-7F87-4CAA-B60A-636B12262078}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Medium_Range" ID="{D40C2771-61C2-4CBB-B1BB-1624A710553E}"/>
+												<ItemList>
+													<ItemRef Name="DIAL_Pierwsza_02" ID="{5C4E2D2D-A595-48DF-80C4-4785903591FA}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Close_Range" ID="{26E03DF0-76B6-4428-A2F1-0D9CC7B72F14}"/>
+												<ItemList>
+													<ItemRef Name="DIAL_Pierwsza_03" ID="{A19FF2DF-112C-47E6-BAB2-918994875EF2}"/>
+												</ItemList>
+											</Grouping>
+										</GroupingList>
+									</GroupingInfo>
+								</SwitchContainer>
+								<SwitchContainer Name="DIAL_Sequence_Part_02" ID="{7115634B-58F6-4897-AF16-348ABEC409AB}" ShortID="438203585">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2F7E5CE0-8488-4150-A956-B9493FC54128}"/>
+										</Reference>
+										<Reference Name="DefaultSwitchOrState">
+											<ObjectRef Name="Medium_Range" ID="{D40C2771-61C2-4CBB-B1BB-1624A710553E}" WorkUnitID="{6188CDC4-C5E0-48A5-88C0-47E14A793210}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{11FBC1CC-BE14-423B-B198-CA7707715B0A}"/>
+										</Reference>
+										<Reference Name="SwitchGroupOrStateGroup">
+											<ObjectRef Name="DIAL_Distance" ID="{31AD2A1B-D383-4C0A-9D4E-370643B173D6}" WorkUnitID="{6188CDC4-C5E0-48A5-88C0-47E14A793210}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="DIAL_Druga_01" ID="{88451CD1-7FAB-4C5F-A75B-3249C6A9CF90}" ShortID="659333034">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2F7E5CE0-8488-4150-A956-B9493FC54128}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{11FBC1CC-BE14-423B-B198-CA7707715B0A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="DIAL_Druga_01" ID="{D6C2BD32-FC4A-420D-B07A-F2C15FD0329B}">
+													<Language>SFX</Language>
+													<AudioFile>Dialogue\DIAL_Druga_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="691962986"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="DIAL_Druga_01" ID="{D6C2BD32-FC4A-420D-B07A-F2C15FD0329B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="DIAL_Druga_02" ID="{B93CDFC1-A422-48B9-82BB-0DEDD7F039B9}" ShortID="346503719">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2F7E5CE0-8488-4150-A956-B9493FC54128}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{11FBC1CC-BE14-423B-B198-CA7707715B0A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="DIAL_Druga_02" ID="{1B5BBC74-D0EC-46D9-AE3A-623130D04481}">
+													<Language>SFX</Language>
+													<AudioFile>Dialogue\DIAL_Druga_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="877106404"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="DIAL_Druga_02" ID="{1B5BBC74-D0EC-46D9-AE3A-623130D04481}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="DIAL_Druga_03" ID="{4E5B07F0-3145-40DB-BEED-D1A9E0BC3F3B}" ShortID="889349369">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2F7E5CE0-8488-4150-A956-B9493FC54128}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{11FBC1CC-BE14-423B-B198-CA7707715B0A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="DIAL_Druga_03" ID="{4D01A37A-026D-44B0-B853-E490141DA956}">
+													<Language>SFX</Language>
+													<AudioFile>Dialogue\DIAL_Druga_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="671708571"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="DIAL_Druga_03" ID="{4D01A37A-026D-44B0-B853-E490141DA956}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<GroupingInfo>
+										<GroupingBehaviorList>
+											<GroupingBehavior>
+												<ItemRef Name="DIAL_Druga_02" ID="{B93CDFC1-A422-48B9-82BB-0DEDD7F039B9}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="DIAL_Druga_01" ID="{88451CD1-7FAB-4C5F-A75B-3249C6A9CF90}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="DIAL_Druga_03" ID="{4E5B07F0-3145-40DB-BEED-D1A9E0BC3F3B}"/>
+											</GroupingBehavior>
+										</GroupingBehaviorList>
+										<GroupingList>
+											<Grouping>
+												<SwitchRef Name="TooFar" ID="{4DDDFB20-063B-41C6-BA6E-D905D704497B}"/>
+												<ItemList>
+													<ItemRef Name="DIAL_Druga_01" ID="{88451CD1-7FAB-4C5F-A75B-3249C6A9CF90}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Medium_Range" ID="{D40C2771-61C2-4CBB-B1BB-1624A710553E}"/>
+												<ItemList>
+													<ItemRef Name="DIAL_Druga_02" ID="{B93CDFC1-A422-48B9-82BB-0DEDD7F039B9}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Close_Range" ID="{26E03DF0-76B6-4428-A2F1-0D9CC7B72F14}"/>
+												<ItemList>
+													<ItemRef Name="DIAL_Druga_03" ID="{4E5B07F0-3145-40DB-BEED-D1A9E0BC3F3B}"/>
+												</ItemList>
+											</Grouping>
+										</GroupingList>
+									</GroupingInfo>
+								</SwitchContainer>
+								<SwitchContainer Name="DIAL_Sequence_Part_03" ID="{E9C80429-AB56-4FFB-943E-28754D397D28}" ShortID="701268512">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2F7E5CE0-8488-4150-A956-B9493FC54128}"/>
+										</Reference>
+										<Reference Name="DefaultSwitchOrState">
+											<ObjectRef Name="Medium_Range" ID="{D40C2771-61C2-4CBB-B1BB-1624A710553E}" WorkUnitID="{6188CDC4-C5E0-48A5-88C0-47E14A793210}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{11FBC1CC-BE14-423B-B198-CA7707715B0A}"/>
+										</Reference>
+										<Reference Name="SwitchGroupOrStateGroup">
+											<ObjectRef Name="DIAL_Distance" ID="{31AD2A1B-D383-4C0A-9D4E-370643B173D6}" WorkUnitID="{6188CDC4-C5E0-48A5-88C0-47E14A793210}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="DIAL_Trzecia_01" ID="{59309831-27A6-43AB-994E-C6E6B9829114}" ShortID="893122272">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2F7E5CE0-8488-4150-A956-B9493FC54128}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{11FBC1CC-BE14-423B-B198-CA7707715B0A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="DIAL_Trzecia_01" ID="{73D71848-0CE6-4652-ADB5-4F266C1F520C}">
+													<Language>SFX</Language>
+													<AudioFile>Dialogue\DIAL_Trzecia_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="728452833"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="DIAL_Trzecia_01" ID="{73D71848-0CE6-4652-ADB5-4F266C1F520C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="DIAL_Trzecia_02" ID="{8603593A-1BCF-47DC-9E77-5B39DDD0FA1B}" ShortID="902279818">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2F7E5CE0-8488-4150-A956-B9493FC54128}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{11FBC1CC-BE14-423B-B198-CA7707715B0A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="DIAL_Trzecia_02" ID="{9F9D4531-1A48-4682-AEA9-3426CE9D0306}">
+													<Language>SFX</Language>
+													<AudioFile>Dialogue\DIAL_Trzecia_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="85629752"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="DIAL_Trzecia_02" ID="{9F9D4531-1A48-4682-AEA9-3426CE9D0306}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="DIAL_Trzecia_03" ID="{6900E14B-54AE-45D9-AA9E-350B333CA11F}" ShortID="145866616">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2F7E5CE0-8488-4150-A956-B9493FC54128}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{11FBC1CC-BE14-423B-B198-CA7707715B0A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="DIAL_Trzecia_03" ID="{1692143A-24FA-4D3A-A280-A639CE88F49C}">
+													<Language>SFX</Language>
+													<AudioFile>Dialogue\DIAL_Trzecia_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="169806942"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="DIAL_Trzecia_03" ID="{1692143A-24FA-4D3A-A280-A639CE88F49C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<GroupingInfo>
+										<GroupingBehaviorList>
+											<GroupingBehavior>
+												<ItemRef Name="DIAL_Trzecia_01" ID="{59309831-27A6-43AB-994E-C6E6B9829114}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="DIAL_Trzecia_02" ID="{8603593A-1BCF-47DC-9E77-5B39DDD0FA1B}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="DIAL_Trzecia_03" ID="{6900E14B-54AE-45D9-AA9E-350B333CA11F}"/>
+											</GroupingBehavior>
+										</GroupingBehaviorList>
+										<GroupingList>
+											<Grouping>
+												<SwitchRef Name="TooFar" ID="{4DDDFB20-063B-41C6-BA6E-D905D704497B}"/>
+												<ItemList>
+													<ItemRef Name="DIAL_Trzecia_01" ID="{59309831-27A6-43AB-994E-C6E6B9829114}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Medium_Range" ID="{D40C2771-61C2-4CBB-B1BB-1624A710553E}"/>
+												<ItemList>
+													<ItemRef Name="DIAL_Trzecia_02" ID="{8603593A-1BCF-47DC-9E77-5B39DDD0FA1B}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Close_Range" ID="{26E03DF0-76B6-4428-A2F1-0D9CC7B72F14}"/>
+												<ItemList>
+													<ItemRef Name="DIAL_Trzecia_03" ID="{6900E14B-54AE-45D9-AA9E-350B333CA11F}"/>
+												</ItemList>
+											</Grouping>
+										</GroupingList>
+									</GroupingInfo>
+								</SwitchContainer>
+							</ChildrenList>
+							<Playlist>
+								<ItemRef Name="DIAL_Sequence_Part_01" ID="{5B0D1427-7893-433B-B44A-F001E55DA153}"/>
+								<ItemRef Name="DIAL_Sequence_Part_02" ID="{7115634B-58F6-4897-AF16-348ABEC409AB}"/>
+								<ItemRef Name="DIAL_Sequence_Part_03" ID="{E9C80429-AB56-4FFB-943E-28754D397D28}"/>
+							</Playlist>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

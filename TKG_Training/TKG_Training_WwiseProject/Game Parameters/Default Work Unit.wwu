@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{7C250573-D533-4152-8EB5-215F9943E43F}" SchemaVersion="97">
 	<GameParameters>
-		<WorkUnit Name="Default Work Unit" ID="{7C250573-D533-4152-8EB5-215F9943E43F}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{7C250573-D533-4152-8EB5-215F9943E43F}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="Dist" ID="{B299A87B-5AF6-484D-96A3-F536D835E571}">
+					<PropertyList>
+						<Property Name="BindToBuiltInParam" Type="int16" Value="1"/>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="50000"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="CHAR_Steps_Distortion_MIx" ID="{46E09827-C1CF-426A-8957-7600407FD6CE}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
 	</GameParameters>
 </WwiseDocument>

@@ -16,11 +16,24 @@
 			<ShortName>SB_Environment</ShortName>
 			<Path>SB_Environment.bnk</Path>
 			<IncludedEvents>
+				<Event Id="2431270508" Name="SFX_ENV_Bird_Loop_Start" ObjectPath="\Events\Default Work Unit\Environment\ENV_Forest\ENV_Bird_loop\SFX_ENV_Bird_Loop_Start">
+					<IncludedMemoryFiles>
+						<File Id="574502201" Language="SFX">
+							<ShortName>Environment\Forest\PRB524 Duet Bald Eagle &amp; Tawny Eagle - Calls, Squawk Cry - Neumann MF.wav</ShortName>
+							<Path>SFX\Environment\Forest\PRB524 Duet Bald Eagle &amp; Tawny Eagle - Calls, Squawk Cry - Neumann MF_D79FB2B7.wem</Path>
+						</File>
+						<File Id="748475811" Language="SFX">
+							<ShortName>Environment\Forest\PRB216 Saker Falcon (Tosia) - Call, Squawk Screech Scream Cry, High Nervous - 8060 MF.wav</ShortName>
+							<Path>SFX\Environment\Forest\PRB216 Saker Falcon (Tosia) - Call, Squawk Screech Scream Cry, High Nervous - 8060 MF_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3069305472" Name="SFX_ENV_Bird_Loop_Stop" ObjectPath="\Events\Default Work Unit\Environment\ENV_Forest\ENV_Bird_loop\SFX_ENV_Bird_Loop_Stop"/>
 				<Event Id="3583227810" Name="SFX_ENV_Forest_Loop_Start" ObjectPath="\Events\Default Work Unit\Environment\ENV_Forest\SFX_ENV_Forest_Loop_Start">
 					<IncludedMemoryFiles>
-						<File Id="483560552" Language="SFX">
-							<ShortName>Environment\Forest\05 Crickets_owls_summer night.WAV</ShortName>
-							<Path>SFX\Environment\Forest\05 Crickets_owls_summer night_D79FB2B7.wem</Path>
+						<File Id="73443616" Language="SFX">
+							<ShortName>Environment\Forest\countryside quiet forest bird gull call.wav</ShortName>
+							<Path>SFX\Environment\Forest\countryside quiet forest bird gull call_D79FB2B7.wem</Path>
 						</File>
 						<File Id="765958045" Language="SFX">
 							<ShortName>Environment\Wind\MAGIC AIR Large Whoosh, Swirl, Wind Gust, Foliage 01.wav</ShortName>
@@ -31,15 +44,168 @@
 				<Event Id="4021107866" Name="SFX_ENV_Forest_Loop_Stop" ObjectPath="\Events\Default Work Unit\Environment\ENV_Forest\SFX_ENV_Forest_Loop_Stop"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
-				<File Id="483560552" Language="SFX">
-					<ShortName>Environment\Forest\05 Crickets_owls_summer night.WAV</ShortName>
-					<Path>SFX\Environment\Forest\05 Crickets_owls_summer night_D79FB2B7.wem</Path>
+				<File Id="73443616" Language="SFX">
+					<ShortName>Environment\Forest\countryside quiet forest bird gull call.wav</ShortName>
+					<Path>SFX\Environment\Forest\countryside quiet forest bird gull call_D79FB2B7.wem</Path>
+				</File>
+				<File Id="574502201" Language="SFX">
+					<ShortName>Environment\Forest\PRB524 Duet Bald Eagle &amp; Tawny Eagle - Calls, Squawk Cry - Neumann MF.wav</ShortName>
+					<Path>SFX\Environment\Forest\PRB524 Duet Bald Eagle &amp; Tawny Eagle - Calls, Squawk Cry - Neumann MF_D79FB2B7.wem</Path>
+				</File>
+				<File Id="748475811" Language="SFX">
+					<ShortName>Environment\Forest\PRB216 Saker Falcon (Tosia) - Call, Squawk Screech Scream Cry, High Nervous - 8060 MF.wav</ShortName>
+					<Path>SFX\Environment\Forest\PRB216 Saker Falcon (Tosia) - Call, Squawk Screech Scream Cry, High Nervous - 8060 MF_D79FB2B7.wem</Path>
 				</File>
 				<File Id="765958045" Language="SFX">
 					<ShortName>Environment\Wind\MAGIC AIR Large Whoosh, Swirl, Wind Gust, Foliage 01.wav</ShortName>
 					<Path>SFX\Environment\Wind\MAGIC AIR Large Whoosh, Swirl, Wind Gust, Foliage 01_10C4C929.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="362644695" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\SB_Dialogue</ObjectPath>
+			<ShortName>SB_Dialogue</ShortName>
+			<Path>SB_Dialogue.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1908040996" Name="DIAL_Sequence_Start" ObjectPath="\Events\Default Work Unit\Dialogue\Dialog\DIAL_Sequence_Start">
+					<IncludedMemoryFiles>
+						<File Id="85629752" Language="SFX">
+							<ShortName>Dialogue\DIAL_Trzecia_02.wav</ShortName>
+							<Path>SFX\Dialogue\DIAL_Trzecia_02_10C4C929.wem</Path>
+						</File>
+						<File Id="169806942" Language="SFX">
+							<ShortName>Dialogue\DIAL_Trzecia_03.wav</ShortName>
+							<Path>SFX\Dialogue\DIAL_Trzecia_03_10C4C929.wem</Path>
+						</File>
+						<File Id="238149055" Language="SFX">
+							<ShortName>Dialogue\DIAL_Pierwsza_02.wav</ShortName>
+							<Path>SFX\Dialogue\DIAL_Pierwsza_02_10C4C929.wem</Path>
+						</File>
+						<File Id="241913843" Language="SFX">
+							<ShortName>Dialogue\DIAL_Pierwsza_01.wav</ShortName>
+							<Path>SFX\Dialogue\DIAL_Pierwsza_01_10C4C929.wem</Path>
+						</File>
+						<File Id="383554693" Language="SFX">
+							<ShortName>Dialogue\DIAL_Pierwsza_03.wav</ShortName>
+							<Path>SFX\Dialogue\DIAL_Pierwsza_03_10C4C929.wem</Path>
+						</File>
+						<File Id="671708571" Language="SFX">
+							<ShortName>Dialogue\DIAL_Druga_03.wav</ShortName>
+							<Path>SFX\Dialogue\DIAL_Druga_03_10C4C929.wem</Path>
+						</File>
+						<File Id="691962986" Language="SFX">
+							<ShortName>Dialogue\DIAL_Druga_01.wav</ShortName>
+							<Path>SFX\Dialogue\DIAL_Druga_01_10C4C929.wem</Path>
+						</File>
+						<File Id="728452833" Language="SFX">
+							<ShortName>Dialogue\DIAL_Trzecia_01.wav</ShortName>
+							<Path>SFX\Dialogue\DIAL_Trzecia_01_10C4C929.wem</Path>
+						</File>
+						<File Id="877106404" Language="SFX">
+							<ShortName>Dialogue\DIAL_Druga_02.wav</ShortName>
+							<Path>SFX\Dialogue\DIAL_Druga_02_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{4DDDFB20-063B-41C6-BA6E-D905D704497B}">
+							<Media>
+								<File Id="241913843"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{D40C2771-61C2-4CBB-B1BB-1624A710553E}">
+							<Media>
+								<File Id="238149055"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{26E03DF0-76B6-4428-A2F1-0D9CC7B72F14}">
+							<Media>
+								<File Id="383554693"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{4DDDFB20-063B-41C6-BA6E-D905D704497B}">
+							<Media>
+								<File Id="691962986"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{D40C2771-61C2-4CBB-B1BB-1624A710553E}">
+							<Media>
+								<File Id="877106404"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{26E03DF0-76B6-4428-A2F1-0D9CC7B72F14}">
+							<Media>
+								<File Id="671708571"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{4DDDFB20-063B-41C6-BA6E-D905D704497B}">
+							<Media>
+								<File Id="728452833"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{D40C2771-61C2-4CBB-B1BB-1624A710553E}">
+							<Media>
+								<File Id="85629752"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{26E03DF0-76B6-4428-A2F1-0D9CC7B72F14}">
+							<Media>
+								<File Id="169806942"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="2911148632" Name="DIAL_Sequence_Stop" ObjectPath="\Events\Default Work Unit\Dialogue\Dialog\DIAL_Sequence_Stop"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="85629752" Language="SFX">
+					<ShortName>Dialogue\DIAL_Trzecia_02.wav</ShortName>
+					<Path>SFX\Dialogue\DIAL_Trzecia_02_10C4C929.wem</Path>
+				</File>
+				<File Id="169806942" Language="SFX">
+					<ShortName>Dialogue\DIAL_Trzecia_03.wav</ShortName>
+					<Path>SFX\Dialogue\DIAL_Trzecia_03_10C4C929.wem</Path>
+				</File>
+				<File Id="238149055" Language="SFX">
+					<ShortName>Dialogue\DIAL_Pierwsza_02.wav</ShortName>
+					<Path>SFX\Dialogue\DIAL_Pierwsza_02_10C4C929.wem</Path>
+				</File>
+				<File Id="241913843" Language="SFX">
+					<ShortName>Dialogue\DIAL_Pierwsza_01.wav</ShortName>
+					<Path>SFX\Dialogue\DIAL_Pierwsza_01_10C4C929.wem</Path>
+				</File>
+				<File Id="383554693" Language="SFX">
+					<ShortName>Dialogue\DIAL_Pierwsza_03.wav</ShortName>
+					<Path>SFX\Dialogue\DIAL_Pierwsza_03_10C4C929.wem</Path>
+				</File>
+				<File Id="671708571" Language="SFX">
+					<ShortName>Dialogue\DIAL_Druga_03.wav</ShortName>
+					<Path>SFX\Dialogue\DIAL_Druga_03_10C4C929.wem</Path>
+				</File>
+				<File Id="691962986" Language="SFX">
+					<ShortName>Dialogue\DIAL_Druga_01.wav</ShortName>
+					<Path>SFX\Dialogue\DIAL_Druga_01_10C4C929.wem</Path>
+				</File>
+				<File Id="728452833" Language="SFX">
+					<ShortName>Dialogue\DIAL_Trzecia_01.wav</ShortName>
+					<Path>SFX\Dialogue\DIAL_Trzecia_01_10C4C929.wem</Path>
+				</File>
+				<File Id="877106404" Language="SFX">
+					<ShortName>Dialogue\DIAL_Druga_02.wav</ShortName>
+					<Path>SFX\Dialogue\DIAL_Druga_02_10C4C929.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+			<GameParameters>
+				<GameParameter Id="2212414277" Name="Dist" ObjectPath="\Game Parameters\Default Work Unit\Dist"/>
+			</GameParameters>
+			<SwitchGroups>
+				<SwitchGroup Id="2260190727" Name="DIAL_Distance" ObjectPath="\Switches\Default Work Unit\SW_Dialogue\DIAL_Distance">
+					<Switches>
+						<Switch Id="3221723129" Name="Close_Range" ObjectPath="\Switches\Default Work Unit\SW_Dialogue\DIAL_Distance\Close_Range"/>
+						<Switch Id="2580244398" Name="Medium_Range" ObjectPath="\Switches\Default Work Unit\SW_Dialogue\DIAL_Distance\Medium_Range"/>
+						<Switch Id="3619665324" Name="TooFar" ObjectPath="\Switches\Default Work Unit\SW_Dialogue\DIAL_Distance\TooFar"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
 		</SoundBank>
 		<SoundBank Id="649986797" Language="SFX">
 			<ObjectPath>\SoundBanks\Default Work Unit\SB_Weapon</ObjectPath>
@@ -50,6 +216,30 @@
 			<ObjectPath>\SoundBanks\Default Work Unit\SB_Character</ObjectPath>
 			<ShortName>SB_Character</ShortName>
 			<Path>SB_Character.bnk</Path>
+			<IncludedEvents>
+				<Event Id="4135134148" Name="CHAR_Steps_Dirt_Random_Play" ObjectPath="\Events\Default Work Unit\Character\CHAR_Steps\CHAR_Steps_Dirt_Random_Play">
+					<IncludedMemoryFiles>
+						<File Id="106913585" Language="SFX">
+							<ShortName>Character\PM_SDNG_Single_Step_Footstep_19.wav</ShortName>
+							<Path>SFX\Character\PM_SDNG_Single_Step_Footstep_19_10C4C929.wem</Path>
+						</File>
+						<File Id="862676447" Language="SFX">
+							<ShortName>Character\PM_SDNG_Single_Step_Footstep_46.wav</ShortName>
+							<Path>SFX\Character\PM_SDNG_Single_Step_Footstep_46_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="106913585" Language="SFX">
+					<ShortName>Character\PM_SDNG_Single_Step_Footstep_19.wav</ShortName>
+					<Path>SFX\Character\PM_SDNG_Single_Step_Footstep_19_10C4C929.wem</Path>
+				</File>
+				<File Id="862676447" Language="SFX">
+					<ShortName>Character\PM_SDNG_Single_Step_Footstep_46.wav</ShortName>
+					<Path>SFX\Character\PM_SDNG_Single_Step_Footstep_46_10C4C929.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
 		</SoundBank>
 		<SoundBank Id="690783697" Language="SFX">
 			<ObjectPath>\SoundBanks\Default Work Unit\SB_TEST</ObjectPath>

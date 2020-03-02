@@ -47,6 +47,18 @@
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
+				<SoundBank Name="SB_Dialogue" ID="{9DF177EE-2094-489A-9CFE-D02C2010BBC7}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="24"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ObjectInclusionList>
+						<ObjectRef Name="Dialogue" ID="{F313F66D-E6B8-401E-916B-D9ACE894CC93}" WorkUnitID="{F313F66D-E6B8-401E-916B-D9ACE894CC93}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Dialogue" ID="{E277E78D-FC63-455D-959C-FD94E8AE0C22}" WorkUnitID="{E277E78D-FC63-455D-959C-FD94E8AE0C22}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundBanks>

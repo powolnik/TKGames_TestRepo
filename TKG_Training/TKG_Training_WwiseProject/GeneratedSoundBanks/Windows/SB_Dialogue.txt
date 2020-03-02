@@ -1,0 +1,26 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1908040996	DIAL_Sequence_Start			\Default Work Unit\Dialogue\Dialog\DIAL_Sequence_Start	
+	2911148632	DIAL_Sequence_Stop			\Default Work Unit\Dialogue\Dialog\DIAL_Sequence_Stop	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	2260190727	DIAL_Distance			\Default Work Unit\SW_Dialogue\DIAL_Distance	
+
+Switch	ID	Name	Switch Group			Notes
+	2580244398	Medium_Range	DIAL_Distance			
+	3221723129	Close_Range	DIAL_Distance			
+	3619665324	TooFar	DIAL_Distance			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	2212414277	Dist			\Default Work Unit\Dist	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	85629752	DIAL_Trzecia_02	E:\Silnik\PROJECT\TK_Repo_Folder\TKGames_TestRepo\TKG_Training\TKG_Training_WwiseProject\.cache\Windows\SFX\Dialogue\DIAL_Trzecia_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\DIAL_Actor\DIAL_Sequence\DIAL_Sequence_Part_03\DIAL_Trzecia_02		91068
+	169806942	DIAL_Trzecia_03	E:\Silnik\PROJECT\TK_Repo_Folder\TKGames_TestRepo\TKG_Training\TKG_Training_WwiseProject\.cache\Windows\SFX\Dialogue\DIAL_Trzecia_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\DIAL_Actor\DIAL_Sequence\DIAL_Sequence_Part_03\DIAL_Trzecia_03		86150
+	238149055	DIAL_Pierwsza_02	E:\Silnik\PROJECT\TK_Repo_Folder\TKGames_TestRepo\TKG_Training\TKG_Training_WwiseProject\.cache\Windows\SFX\Dialogue\DIAL_Pierwsza_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\DIAL_Actor\DIAL_Sequence\DIAL_Sequence_Part_01\DIAL_Pierwsza_02		86150
+	241913843	DIAL_Pierwsza_01	E:\Silnik\PROJECT\TK_Repo_Folder\TKGames_TestRepo\TKG_Training\TKG_Training_WwiseProject\.cache\Windows\SFX\Dialogue\DIAL_Pierwsza_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\DIAL_Actor\DIAL_Sequence\DIAL_Sequence_Part_01\DIAL_Pierwsza_01		125424
+	383554693	DIAL_Pierwsza_03	E:\Silnik\PROJECT\TK_Repo_Folder\TKGames_TestRepo\TKG_Training\TKG_Training_WwiseProject\.cache\Windows\SFX\Dialogue\DIAL_Pierwsza_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\DIAL_Actor\DIAL_Sequence\DIAL_Sequence_Part_01\DIAL_Pierwsza_03		108286
+	671708571	DIAL_Druga_03	E:\Silnik\PROJECT\TK_Repo_Folder\TKGames_TestRepo\TKG_Training\TKG_Training_WwiseProject\.cache\Windows\SFX\Dialogue\DIAL_Druga_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\DIAL_Actor\DIAL_Sequence\DIAL_Sequence_Part_02\DIAL_Druga_03		93528
+	691962986	DIAL_Druga_01	E:\Silnik\PROJECT\TK_Repo_Folder\TKGames_TestRepo\TKG_Training\TKG_Training_WwiseProject\.cache\Windows\SFX\Dialogue\DIAL_Druga_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\DIAL_Actor\DIAL_Sequence\DIAL_Sequence_Part_02\DIAL_Druga_01		86150
+	728452833	DIAL_Trzecia_01	E:\Silnik\PROJECT\TK_Repo_Folder\TKGames_TestRepo\TKG_Training\TKG_Training_WwiseProject\.cache\Windows\SFX\Dialogue\DIAL_Trzecia_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\DIAL_Actor\DIAL_Sequence\DIAL_Sequence_Part_03\DIAL_Trzecia_01		83690
+	877106404	DIAL_Druga_02	E:\Silnik\PROJECT\TK_Repo_Folder\TKGames_TestRepo\TKG_Training\TKG_Training_WwiseProject\.cache\Windows\SFX\Dialogue\DIAL_Druga_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\DIAL_Actor\DIAL_Sequence\DIAL_Sequence_Part_02\DIAL_Druga_02		78770
+

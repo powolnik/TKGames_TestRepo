@@ -1,2 +1,1 @@
-SB_Environment	"SFX_ENV_Forest_Loop_Start"
-SB_Environment	"SFX_ENV_Forest_Loop_Stop"
+SB_Character	"CHAR_Steps_Dirt_Random_Play"

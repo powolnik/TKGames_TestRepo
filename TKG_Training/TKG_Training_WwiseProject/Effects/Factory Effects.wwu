@@ -61,10 +61,10 @@
 						<Effect Name="Pumping_and_Breathing_1" ID="{87BE3270-3D27-45BB-9E46-7F2D9380F523}" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
 							<PropertyList>
 								<Property Name="AttackTime" Type="Real32" Value="0.111"/>
-								<Property Name="OutputGain" Type="Real32" Value="3"/>
-								<Property Name="Ratio" Type="Real32" Value="20"/>
+								<Property Name="OutputGain" Type="Real32" Value="0.3"/>
+								<Property Name="Ratio" Type="Real32" Value="15.2"/>
 								<Property Name="ReleaseTime" Type="Real32" Value="0.021"/>
-								<Property Name="Threshold" Type="Real32" Value="-37"/>
+								<Property Name="Threshold" Type="Real32" Value="-22.3"/>
 							</PropertyList>
 						</Effect>
 						<Effect Name="All_Buttons_IN" ID="{E5FFEBA7-4F6F-421E-ABB7-286C011BD0C8}" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
